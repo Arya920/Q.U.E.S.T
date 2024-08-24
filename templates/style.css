@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Curlz+MT&display=swap');
+
+.center-top-container {
+    text-align: center;
+    padding-top: 15vh; /* Adjust the top padding as needed */
+}
+
+.custom-title {
+    font-family: 'Sans serif', cursive;
+    font-size: 5em;
+    font-style: italic;
+    font-weight: normal; /* Set the default weight to normal */
+    margin: 0; /* Remove default margin */
+}
+
+.custom-title .red-bold {
+    color: red; /* Make the Q red */
+    font-weight: bold; /* Make the Q bold */
+}

@@ -1,0 +1,7 @@
+pyaudio
+whisper
+transformers
+bs4
+torch
+asyncio
+edge-tts
