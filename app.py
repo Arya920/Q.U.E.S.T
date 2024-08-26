@@ -24,6 +24,7 @@ def text_to_speech(text, voice, rate):
 st.sidebar.image("logos/voice-assistant-concept-illustration.png", use_column_width=True)
 st.sidebar.markdown("---")
 
+
 # Voice customization options
 voice_character = st.sidebar.selectbox("Voice Character", ['Male', 'Female'])
 speed = st.sidebar.selectbox("Speed", ['Slow', 'Medium', 'Fast'])
@@ -47,7 +48,7 @@ with col3:
     option = st.radio("Input Options",["Voice Input", "File Input"],label_visibility="collapsed") 
 
 with col2:
-    st.caption("QBERT-Utilized Edge Speech Technology")
+    st.caption("QABERT-Utilized Edge Speech Technology")
     if option == "Voice Input":
         start_button = st.button("Start the Voice Assistant",key="start_button")
     else:
